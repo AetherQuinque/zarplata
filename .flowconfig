@@ -1,0 +1,17 @@
+[ignore]
+./__tests__
+./android
+./ios
+.*/node_modules/
+
+[include]
+
+[libs]
+flow-typed/dependecies
+flow-typed
+
+[lints]
+
+[options]
+module.system=haste
+suppress_comment= \\(.\\|\n\\)*\\$FlowIgnore
